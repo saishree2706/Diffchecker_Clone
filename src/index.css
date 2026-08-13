@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+textarea {
+  tab-size: 2;
+  -moz-tab-size: 2;
+}
+
+/* Thin, unobtrusive scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #4b5563;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

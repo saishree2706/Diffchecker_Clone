@@ -1,0 +1,9 @@
+I want  a diffchecker clone. 
+
+Features:
+I will give two text files left and right, should have interchange option.
+the code piece which is not same, highlight in color
+give option to merge from left to right or right to left
+I want unlimited merge
+
+Same features like diffchecker.com
